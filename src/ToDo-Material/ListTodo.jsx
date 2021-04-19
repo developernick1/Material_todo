@@ -43,9 +43,8 @@ const ListTodo = (props) => {
                     onDoubleClick={unCutLine}
                         // onClick={secondClick}
                      onClick={cutLine}
-                      style={{display:"flex", marginLeft:"22px"}} >
+                           >
                         <DoneAllIcon 
-                        style={{marginRight:"-20px"}} 
                         className="deleteIcon" />
                     </span>
                     <span> 
